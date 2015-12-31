@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA0236BE1C34AF25007136F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0236BD1C34AF25007136F4 /* main.m */; };
+		EA0236C11C34AF25007136F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0236C01C34AF25007136F4 /* AppDelegate.m */; };
+		EA0236C41C34AF25007136F4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0236C31C34AF25007136F4 /* ViewController.m */; };
+		EA0236C71C34AF25007136F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA0236C51C34AF25007136F4 /* Main.storyboard */; };
+		EA0236CA1C34AF25007136F4 /* Flurry.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EA0236C81C34AF25007136F4 /* Flurry.xcdatamodeld */; };
+		EA0236CC1C34AF25007136F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA0236CB1C34AF25007136F4 /* Assets.xcassets */; };
+		EA0236CF1C34AF25007136F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA0236CD1C34AF25007136F4 /* LaunchScreen.storyboard */; };
+		EA0236DA1C34AF25007136F4 /* FlurryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0236D91C34AF25007136F4 /* FlurryTests.m */; };
+		EA0236E51C34AF25007136F4 /* FlurryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0236E41C34AF25007136F4 /* FlurryUITests.m */; };
+		EA0236FC1C34B0DC007136F4 /* WeatherDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0236FB1C34B0DC007136F4 /* WeatherDataManager.m */; };
+		EA0237001C34B126007136F4 /* BackendUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0236FF1C34B126007136F4 /* BackendUtility.m */; };
+		EA0237081C34B661007136F4 /* Weather+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0237051C34B661007136F4 /* Weather+CoreDataProperties.m */; };
+		EA0237091C34B661007136F4 /* Weather.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0237071C34B661007136F4 /* Weather.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA0236D61C34AF25007136F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA0236B11C34AF25007136F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA0236B81C34AF25007136F4;
+			remoteInfo = Flurry;
+		};
+		EA0236E11C34AF25007136F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA0236B11C34AF25007136F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA0236B81C34AF25007136F4;
+			remoteInfo = Flurry;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA0236B91C34AF25007136F4 /* Flurry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flurry.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA0236BD1C34AF25007136F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA0236BF1C34AF25007136F4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA0236C01C34AF25007136F4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA0236C21C34AF25007136F4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EA0236C31C34AF25007136F4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EA0236C61C34AF25007136F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA0236C91C34AF25007136F4 /* Flurry.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Flurry.xcdatamodel; sourceTree = "<group>"; };
+		EA0236CB1C34AF25007136F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA0236CE1C34AF25007136F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA0236D01C34AF25007136F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA0236D51C34AF25007136F4 /* FlurryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlurryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA0236D91C34AF25007136F4 /* FlurryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlurryTests.m; sourceTree = "<group>"; };
+		EA0236DB1C34AF25007136F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA0236E01C34AF25007136F4 /* FlurryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlurryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA0236E41C34AF25007136F4 /* FlurryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlurryUITests.m; sourceTree = "<group>"; };
+		EA0236E61C34AF25007136F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA0236FA1C34B0DC007136F4 /* WeatherDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WeatherDataManager.h; path = DataManager/WeatherDataManager.h; sourceTree = "<group>"; };
+		EA0236FB1C34B0DC007136F4 /* WeatherDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WeatherDataManager.m; path = DataManager/WeatherDataManager.m; sourceTree = "<group>"; };
+		EA0236FE1C34B126007136F4 /* BackendUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BackendUtility.h; path = Utility/BackendUtility.h; sourceTree = "<group>"; };
+		EA0236FF1C34B126007136F4 /* BackendUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BackendUtility.m; path = Utility/BackendUtility.m; sourceTree = "<group>"; };
+		EA0237011C34B236007136F4 /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constant.h; path = Utility/Constant.h; sourceTree = "<group>"; };
+		EA0237041C34B661007136F4 /* Weather+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Weather+CoreDataProperties.h"; path = "Model/Weather+CoreDataProperties.h"; sourceTree = "<group>"; };
+		EA0237051C34B661007136F4 /* Weather+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Weather+CoreDataProperties.m"; path = "Model/Weather+CoreDataProperties.m"; sourceTree = "<group>"; };
+		EA0237061C34B661007136F4 /* Weather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Weather.h; path = Model/Weather.h; sourceTree = "<group>"; };
+		EA0237071C34B661007136F4 /* Weather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Weather.m; path = Model/Weather.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA0236B61C34AF25007136F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA0236D21C34AF25007136F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA0236DD1C34AF25007136F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA0236B01C34AF25007136F4 = {
+			isa = PBXGroup;
+			children = (
+				EA0236BB1C34AF25007136F4 /* Flurry */,
+				EA0236D81C34AF25007136F4 /* FlurryTests */,
+				EA0236E31C34AF25007136F4 /* FlurryUITests */,
+				EA0236BA1C34AF25007136F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA0236BA1C34AF25007136F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA0236B91C34AF25007136F4 /* Flurry.app */,
+				EA0236D51C34AF25007136F4 /* FlurryTests.xctest */,
+				EA0236E01C34AF25007136F4 /* FlurryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA0236BB1C34AF25007136F4 /* Flurry */ = {
+			isa = PBXGroup;
+			children = (
+				EA0236FD1C34B0E4007136F4 /* DataManager */,
+				EA0236F91C34B009007136F4 /* Model */,
+				EA0236F51C34AFA2007136F4 /* Utility */,
+				EA0236BF1C34AF25007136F4 /* AppDelegate.h */,
+				EA0236C01C34AF25007136F4 /* AppDelegate.m */,
+				EA0236C21C34AF25007136F4 /* ViewController.h */,
+				EA0236C31C34AF25007136F4 /* ViewController.m */,
+				EA0236C51C34AF25007136F4 /* Main.storyboard */,
+				EA0236CB1C34AF25007136F4 /* Assets.xcassets */,
+				EA0236CD1C34AF25007136F4 /* LaunchScreen.storyboard */,
+				EA0236D01C34AF25007136F4 /* Info.plist */,
+				EA0236C81C34AF25007136F4 /* Flurry.xcdatamodeld */,
+				EA0236BC1C34AF25007136F4 /* Supporting Files */,
+			);
+			path = Flurry;
+			sourceTree = "<group>";
+		};
+		EA0236BC1C34AF25007136F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA0236BD1C34AF25007136F4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA0236D81C34AF25007136F4 /* FlurryTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA0236D91C34AF25007136F4 /* FlurryTests.m */,
+				EA0236DB1C34AF25007136F4 /* Info.plist */,
+			);
+			path = FlurryTests;
+			sourceTree = "<group>";
+		};
+		EA0236E31C34AF25007136F4 /* FlurryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA0236E41C34AF25007136F4 /* FlurryUITests.m */,
+				EA0236E61C34AF25007136F4 /* Info.plist */,
+			);
+			path = FlurryUITests;
+			sourceTree = "<group>";
+		};
+		EA0236F51C34AFA2007136F4 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				EA0237011C34B236007136F4 /* Constant.h */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		EA0236F91C34B009007136F4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EA0237041C34B661007136F4 /* Weather+CoreDataProperties.h */,
+				EA0237051C34B661007136F4 /* Weather+CoreDataProperties.m */,
+				EA0237061C34B661007136F4 /* Weather.h */,
+				EA0237071C34B661007136F4 /* Weather.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		EA0236FD1C34B0E4007136F4 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				EA0236FA1C34B0DC007136F4 /* WeatherDataManager.h */,
+				EA0236FB1C34B0DC007136F4 /* WeatherDataManager.m */,
+				EA0236FE1C34B126007136F4 /* BackendUtility.h */,
+				EA0236FF1C34B126007136F4 /* BackendUtility.m */,
+			);
+			name = DataManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA0236B81C34AF25007136F4 /* Flurry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA0236E91C34AF25007136F4 /* Build configuration list for PBXNativeTarget "Flurry" */;
+			buildPhases = (
+				EA0236B51C34AF25007136F4 /* Sources */,
+				EA0236B61C34AF25007136F4 /* Frameworks */,
+				EA0236B71C34AF25007136F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Flurry;
+			productName = Flurry;
+			productReference = EA0236B91C34AF25007136F4 /* Flurry.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA0236D41C34AF25007136F4 /* FlurryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA0236EC1C34AF25007136F4 /* Build configuration list for PBXNativeTarget "FlurryTests" */;
+			buildPhases = (
+				EA0236D11C34AF25007136F4 /* Sources */,
+				EA0236D21C34AF25007136F4 /* Frameworks */,
+				EA0236D31C34AF25007136F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA0236D71C34AF25007136F4 /* PBXTargetDependency */,
+			);
+			name = FlurryTests;
+			productName = FlurryTests;
+			productReference = EA0236D51C34AF25007136F4 /* FlurryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA0236DF1C34AF25007136F4 /* FlurryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA0236EF1C34AF25007136F4 /* Build configuration list for PBXNativeTarget "FlurryUITests" */;
+			buildPhases = (
+				EA0236DC1C34AF25007136F4 /* Sources */,
+				EA0236DD1C34AF25007136F4 /* Frameworks */,
+				EA0236DE1C34AF25007136F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA0236E21C34AF25007136F4 /* PBXTargetDependency */,
+			);
+			name = FlurryUITests;
+			productName = FlurryUITests;
+			productReference = EA0236E01C34AF25007136F4 /* FlurryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA0236B11C34AF25007136F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Durgesh Gupta";
+				TargetAttributes = {
+					EA0236B81C34AF25007136F4 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					EA0236D41C34AF25007136F4 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = EA0236B81C34AF25007136F4;
+					};
+					EA0236DF1C34AF25007136F4 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = EA0236B81C34AF25007136F4;
+					};
+				};
+			};
+			buildConfigurationList = EA0236B41C34AF25007136F4 /* Build configuration list for PBXProject "Flurry" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA0236B01C34AF25007136F4;
+			productRefGroup = EA0236BA1C34AF25007136F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA0236B81C34AF25007136F4 /* Flurry */,
+				EA0236D41C34AF25007136F4 /* FlurryTests */,
+				EA0236DF1C34AF25007136F4 /* FlurryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA0236B71C34AF25007136F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA0236CF1C34AF25007136F4 /* LaunchScreen.storyboard in Resources */,
+				EA0236CC1C34AF25007136F4 /* Assets.xcassets in Resources */,
+				EA0236C71C34AF25007136F4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA0236D31C34AF25007136F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA0236DE1C34AF25007136F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA0236B51C34AF25007136F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA0237091C34B661007136F4 /* Weather.m in Sources */,
+				EA0236C41C34AF25007136F4 /* ViewController.m in Sources */,
+				EA0236C11C34AF25007136F4 /* AppDelegate.m in Sources */,
+				EA0237081C34B661007136F4 /* Weather+CoreDataProperties.m in Sources */,
+				EA0236BE1C34AF25007136F4 /* main.m in Sources */,
+				EA0236FC1C34B0DC007136F4 /* WeatherDataManager.m in Sources */,
+				EA0236CA1C34AF25007136F4 /* Flurry.xcdatamodeld in Sources */,
+				EA0237001C34B126007136F4 /* BackendUtility.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA0236D11C34AF25007136F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA0236DA1C34AF25007136F4 /* FlurryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA0236DC1C34AF25007136F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA0236E51C34AF25007136F4 /* FlurryUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA0236D71C34AF25007136F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA0236B81C34AF25007136F4 /* Flurry */;
+			targetProxy = EA0236D61C34AF25007136F4 /* PBXContainerItemProxy */;
+		};
+		EA0236E21C34AF25007136F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA0236B81C34AF25007136F4 /* Flurry */;
+			targetProxy = EA0236E11C34AF25007136F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA0236C51C34AF25007136F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA0236C61C34AF25007136F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA0236CD1C34AF25007136F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA0236CE1C34AF25007136F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA0236E71C34AF25007136F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA0236E81C34AF25007136F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA0236EA1C34AF25007136F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Flurry/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.durgesh.Flurry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EA0236EB1C34AF25007136F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Flurry/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.durgesh.Flurry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EA0236ED1C34AF25007136F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FlurryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.durgesh.FlurryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flurry.app/Flurry";
+			};
+			name = Debug;
+		};
+		EA0236EE1C34AF25007136F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FlurryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.durgesh.FlurryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flurry.app/Flurry";
+			};
+			name = Release;
+		};
+		EA0236F01C34AF25007136F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FlurryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.durgesh.FlurryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Flurry;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EA0236F11C34AF25007136F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FlurryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.durgesh.FlurryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Flurry;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA0236B41C34AF25007136F4 /* Build configuration list for PBXProject "Flurry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA0236E71C34AF25007136F4 /* Debug */,
+				EA0236E81C34AF25007136F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA0236E91C34AF25007136F4 /* Build configuration list for PBXNativeTarget "Flurry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA0236EA1C34AF25007136F4 /* Debug */,
+				EA0236EB1C34AF25007136F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA0236EC1C34AF25007136F4 /* Build configuration list for PBXNativeTarget "FlurryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA0236ED1C34AF25007136F4 /* Debug */,
+				EA0236EE1C34AF25007136F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA0236EF1C34AF25007136F4 /* Build configuration list for PBXNativeTarget "FlurryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA0236F01C34AF25007136F4 /* Debug */,
+				EA0236F11C34AF25007136F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EA0236C81C34AF25007136F4 /* Flurry.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EA0236C91C34AF25007136F4 /* Flurry.xcdatamodel */,
+			);
+			currentVersion = EA0236C91C34AF25007136F4 /* Flurry.xcdatamodel */;
+			path = Flurry.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EA0236B11C34AF25007136F4 /* Project object */;
+}
